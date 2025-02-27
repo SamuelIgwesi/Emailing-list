@@ -1,4 +1,4 @@
-##Emailing List 📩
+## Emailing List 📩
 
 Welcome to Emailing List, a project designed to manage and automate email subscriptions efficiently. This is a Signup Page created with Node.js and Mailchimp API, allowing users to subscribe and be added to an email list.
 
