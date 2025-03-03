@@ -13,8 +13,8 @@ The **Emailing List** project is a simple and efficient email list management sy
 ## 🏗️ Tech Stack
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB (or any other database used)
-- **Email Service**: (Specify if using Mailchimp, SendGrid, etc.)
-- **Frontend**: (Specify if applicable, e.g., React, HTML/CSS, etc.)
+- **Email Service**: Mailchimp
+- **Frontend**: HTML/CSS
 
 ## 🔧 Installation
 1. **Clone the repository:**
@@ -34,7 +34,7 @@ The **Emailing List** project is a simple and efficient email list management sy
      ```env
      MONGO_URI=your_mongodb_connection_string
      EMAIL_API_KEY=your_email_service_api_key
-     PORT=5000 (or any preferred port)
+     PORT=3000 (or any preferred port)
      ```
 
 4. **Run the server:**
@@ -42,24 +42,12 @@ The **Emailing List** project is a simple and efficient email list management sy
    npm start
    ```
 
-## 📌 Usage
-- **Subscribe an email:**
-  ```http
-  POST /subscribe
-  ```
-  **Body:** `{ "email": "user@example.com" }`
-
-- **Get all subscribed emails:**
-  ```http
-  GET /emails
-  ```
 
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📬 Contact
 - **GitHub**: [SamuelIgwesi](https://github.com/SamuelIgwesi)
-- **Email**: (Your email if you want to add it)
 
 ---
 🚀 Feel free to contribute, raise issues, or suggest improvements! Happy coding! 🎉
